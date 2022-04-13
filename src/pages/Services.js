@@ -6,7 +6,7 @@ const Services = () => {
       <h4> Our Services </h4>
       <div className="services-flex">
         <Service
-          title="ROMANCE SCAMS"
+          title="ROMANCE SCAM RECOVEFRY"
           imgpath="2"
           text="These days, layouts of Internet scams and romance scams have become
         increasingly complex: fake phone numbers, fake Whatsapp numbers, fake
@@ -24,9 +24,9 @@ const Services = () => {
           text="Documentation of assets and possible transfers. Identify changes to asset class and dilution of value. Verification of any increase or decrease to net asset value of the entity or individual. Prepare reporting for seizure or writ of garnishment."
         />
         <Service
-          title="CRYPTOCURRIENCIES"
+          title="CRYPTOCURRIENCIES SCAM RECOVEFRY"
           imgpath="8"
-          text="Documentation of assets and possible transfers. Identify changes to asset class and dilution of value. Verification of any increase or decrease to net asset value of the entity or individual. Prepare reporting for seizure or writ of garnishment."
+          text="Recover funds from forgotten wallet passwords. Recover funds lost in fork cork. Recover funds in watch only addresses. Reverse cryptocurrencies transferred to an invalid address."
         />
         <Service
           title="WIRE AND ACH FRAUD RECOVERY"
@@ -52,6 +52,11 @@ const Services = () => {
           title="PRIVATE INVESTIGATIONS"
           imgpath="6"
           text="We help carry out our clients ethical needs, like spouses suspecting their patner is cheating on them etc. We have a team fully equipped and distance is not a barrier for us."
+        />
+        <Service
+          title="NFT RECOVERY"
+          imgpath="6"
+          text="As NFTs poppularity go on a rise, so as scammers fed on it too, we help our clients to recover NFT related scams and give detailed advices before they proceed to buy"
         />
       </div>
     </div>
