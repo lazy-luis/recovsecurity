@@ -293,17 +293,17 @@ header .site-intro .site-links a:hover::after {
   width: 95%;
   margin: 10px auto;
   box-shadow: 0px 0px 6px #e4e4e4;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .services-page .services-flex .service-flex .service .service-img {
   width: 100%;
-  aspect-ratio: 1/1;
+  height: 280px;
   background: #e4e4e4 no-repeat center;
   background-size: 150%;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   transition: all .5s;
 }
 
@@ -312,8 +312,8 @@ header .site-intro .site-links a:hover::after {
   height: 200px;
   background: #e4e4e4 no-repeat top;
   background-size: 110%;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   transition: all .5s;
 }
 
