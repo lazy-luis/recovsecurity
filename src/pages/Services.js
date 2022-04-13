@@ -55,7 +55,7 @@ const Services = () => {
         />
         <Service
           title="NFT RECOVERY"
-          imgpath="6"
+          imgpath="7"
           text="As NFTs poppularity go on a rise, so as scammers fed on it too, we help our clients to recover NFT related scams and give detailed advices before they proceed to buy"
         />
       </div>
