@@ -18,8 +18,8 @@ const Home = () => {
       <div className="services-page">
         <h4> Our Top Services </h4>
         <div className="services-flex">
-          <Service title="ASSET SEARCH AND RECOVERY" imgpath="5" text="" />
-          <Service title="LOCATE MISSING PERSON" imgpath="7" text="" />
+          <Service title="ROMANCE SCAM RECOVERY" imgpath="2" text="" />
+          <Service title="CRYPTOCURRENCY SCAM RECOVERY" imgpath="8" text="" />
           <Service title="PRIVATE INVESTIGATIONS" imgpath="6" text="" />
         </div>
       </div>
