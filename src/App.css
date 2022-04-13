@@ -1,0 +1,671 @@
+.aside-backdrop {
+  background: #232323b4;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin-right: -200%;
+  z-index: 209;
+  transition: all .5s;
+}
+
+.aside-menu {
+  background: #f5f5f5;
+  position: fixed;
+  height: 100vh;
+  width: 350px;
+  right: 0;
+  z-index: 215;
+  margin-right: -200%;
+  transition: all .5s;
+}
+
+.aside-backdrop.active {
+  margin-right: 0%;
+  transition: all .5s;
+}
+
+.aside-menu.active {
+  margin-right: 0%;
+  transition: all .5s;
+}
+
+.aside-menu button {
+  margin-top: 5vh;
+  margin-left: 50px;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  font-size: 1.6rem;
+}
+
+.aside-menu ul {
+  margin-top: 3vh;
+}
+
+.aside-menu a {
+  display: block;
+  font-size: 1.3rem;
+  color: #232323;
+  text-decoration: none;
+  width: 85%;
+  border-bottom: 1px solid #23232360;
+  margin: 5px auto;
+  padding: 12px;
+}
+
+header {
+  padding: 0;
+  background: #f5f5f5;
+}
+
+header .site-contact {
+  padding: 12px 8px;
+  background: #232323;
+  color: #e4e4e4;
+  text-align: right;
+}
+
+header .site-contact p {
+  display: inline-block;
+  margin: 0px 20px;
+  font-size: 1.2rem;
+}
+
+header .site-intro {
+  width: 90%;
+  margin: 2px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header .site-intro .site-logo {
+  width: 30%;
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+header .site-intro .site-button {
+  display: none;
+  width: 30%;
+}
+
+header .site-intro .site-button button {
+  padding: 12px;
+  font-size: 1.6rem;
+  border: none;
+  background: transparent;
+  border-radius: 12px;
+  color: #232323;
+}
+
+header .site-intro .site-links {
+  width: 70%;
+  text-align: right;
+}
+
+header .site-intro .site-links a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #232323;
+  display: inline-block;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+header .site-intro .site-links a::after {
+  content: '';
+  height: 2px;
+  background: #b22222;
+  display: block;
+  width: 0%;
+  margin: 5px auto;
+  transition: all .6s;
+}
+
+header .site-intro .site-links a.active {
+  color: #b22222;
+}
+
+header .site-intro .site-links a.active::after {
+  width: 45%;
+  transition: all .6s;
+}
+
+header .site-intro .site-links a:hover {
+  color: #b22222;
+}
+
+header .site-intro .site-links a:hover::after {
+  width: 70%;
+  transition: all .6s;
+}
+
+.home-page .home-header {
+  background: #1f1f1fe0 url("../public/img/home.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 90vh;
+  background-blend-mode: darken;
+  color: #ffffff;
+}
+
+.home-page .home-header .home-header-text {
+  padding-top: 30vh;
+  text-align: center;
+}
+
+.home-page .home-header .home-header-text h2 {
+  font-size: 5.3rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.home-page .home-header .home-header-text h4 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.home-page .home-header .home-header-text h6 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 0;
+  color: #e07070;
+}
+
+.home-page .home-header .home-header-btn {
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.home-page .home-header .home-header-btn a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  background: #b22222;
+  padding: 12px 30px;
+  border-radius: 6px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 5px 10px;
+  font-weight: 500;
+}
+
+.about-page h4,
+.services-page h4,
+.contact-page h4,
+.faqs-page h4 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #b22222;
+}
+
+.about-page h4::after,
+.services-page h4::after,
+.contact-page h4::after,
+.faqs-page h4::after {
+  content: '';
+  height: 2px;
+  background: #b22222;
+  display: block;
+  width: 100px;
+  margin: 5px auto;
+  transition: all .6s;
+}
+
+.about-page .about-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.about-page .about-flex .about-img {
+  width: 45%;
+}
+
+.about-page .about-flex .about-img img {
+  width: 95%;
+  margin: 10px auto;
+  display: block;
+}
+
+.about-page .about-flex .about-text {
+  width: 55%;
+}
+
+.about-page .about-flex .about-text p {
+  width: 85%;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.about-page .about-flex .about-text p span {
+  width: 85%;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.about-page .about-flex .about-text.home p {
+  font-size: 1.6rem;
+}
+
+.about-page .about-flex .about-text.home p span {
+  font-size: 1.9rem;
+  color: #b22222;
+  display: block;
+  margin: 4px 0;
+}
+
+.about-page .about-flex .about-text.home p a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  background: #b22222;
+  padding: 12px 30px;
+  border-radius: 6px;
+  color: #ffffff;
+  display: block;
+  margin: 5px 10px;
+  font-weight: 500;
+  width: 120px;
+  text-align: center;
+}
+
+.services-page .services-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.services-page .services-flex .service-flex {
+  width: 33%;
+}
+
+.services-page .services-flex .service-flex .service {
+  width: 95%;
+  margin: 10px auto;
+  box-shadow: 0px 0px 6px #e4e4e4;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.services-page .services-flex .service-flex .service .service-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: #e4e4e4 no-repeat center;
+  background-size: 150%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: all .5s;
+}
+
+.services-page .services-flex.promise .service-flex .service .service-img {
+  width: 100%;
+  height: 200px;
+  background: #e4e4e4 no-repeat top;
+  background-size: 110%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: all .5s;
+}
+
+.services-page .services-flex .service-flex .service:hover .service-img {
+  background-size: 250%;
+  transition: all .5s;
+}
+
+.services-page .services-flex .service-flex .service .service-text {
+  padding: 10px;
+}
+
+.services-page .services-flex .service-flex .service .service-text h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #b22222;
+}
+
+.services-page .services-flex .service-flex .service .service-text p {
+  text-align: justify;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.faqs-page .faqs-flex {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faqs-page .faqs-flex .faq-flex {
+  width: 95%;
+  margin: 5px auto;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 4px #232323b4;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq .faq-question {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  border-bottom: 2px solid #b2222267;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq .faq-question p {
+  width: 90%;
+  padding-left: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq .faq-question svg {
+  width: 10%;
+  transform: rotate(0deg);
+  transition: all .5s;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq.active .faq-question svg {
+  transform: rotate(-90deg);
+  transition: all .5s;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq .faq-answer {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  display: none;
+}
+
+.faqs-page .faqs-flex .faq-flex .faq.active .faq-answer {
+  display: block;
+}
+
+.contact-page .contact-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.contact-page .contact-flex .contact-text {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-page .contact-flex .contact-text h6 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #b22222;
+  margin: 0;
+}
+
+.contact-page .contact-flex .contact-text .contact-text-single {
+  padding: 8px;
+  text-align: center;
+  width: 95%;
+  margin: 2px auto;
+}
+
+.contact-page .contact-flex .contact-text .contact-text-single p {
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+.contact-page .contact-flex .contact-text .contact-text-single label {
+  font-size: 2.4rem;
+  color: #b22222;
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+
+.contact-page .contact-flex .contact-form {
+  width: 60%;
+}
+
+.contact-page .contact-flex .contact-form form {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px #a7a7a7;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.contact-page .contact-flex .contact-form form label {
+  font-size: 1.1rem;
+  color: #b22222;
+  font-weight: 800;
+  margin: 6px auto;
+  display: block;
+  width: 100%;
+}
+
+.contact-page .contact-flex .contact-form form input,
+.contact-page .contact-flex .contact-form form textarea {
+  resize: none;
+  width: 90%;
+  display: block;
+  margin: 5px auto;
+  border: 2px solid #d0d0d0b4;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.contact-page .contact-flex .contact-form form button {
+  width: 40%;
+  margin: 20px auto;
+  display: block;
+  padding: 17px;
+  font-weight: 600;
+  font-size: .9rem;
+  border-radius: 4px;
+  background: #b22222;
+  color: #ffffff;
+  border: none;
+}
+
+footer {
+  padding: 30px 0;
+  background: #232323;
+  color: #e4e4e4;
+}
+
+footer .footer-menus {
+  width: 90%;
+  margin: 2px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+footer .footer-menus>* {
+  width: 33%;
+}
+
+footer .footer-menus h4 {
+  font-size: 1.7rem;
+  color: #ffffff;
+}
+
+footer .footer-menus h4::before {
+  content: '';
+  position: absolute;
+  height: 2rem;
+  background: #b22222;
+  margin-left: -10px;
+  width: 5px;
+}
+
+footer .footer-menus h6 {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+footer .footer-menus a {
+  font-size: 1.1rem;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 12px 0;
+  outline: none;
+  margin-top: 0;
+}
+
+footer .footer-menus a:hover {
+  color: #b22222;
+}
+
+footer .footer-menus p {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+footer .copyright-tag {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #e4e4e4;
+  border: none;
+  border-top: 2px solid #e4e4e4;
+}
+
+@media (max-width: 650px) {
+
+  header .site-intro .site-logo {
+    width: 70%;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  header .site-intro .site-button {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+  }
+
+  header .site-intro .site-links {
+    display: none;
+  }
+
+  .home-page .home-header .home-header-text h2 {
+    font-size: 3.2rem;
+  }
+
+  .home-page .home-header .home-header-text h4 {
+    font-size: 1.3rem;
+  }
+
+  .home-page .home-header .home-header-text h6 {
+    font-size: 1.0rem;
+  }
+
+  .about-page .about-flex {
+    flex-direction: column;
+  }
+
+  .about-page .about-flex .about-img {
+    width: 95%;
+  }
+
+  .about-page .about-flex .about-img img {
+    width: 95%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .about-page .about-flex .about-text {
+    width: 95%;
+  }
+
+  .about-page .about-flex .about-text p {
+    width: 95%;
+  }
+
+  .services-page .services-flex {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .services-page .services-flex .service-flex {
+    width: 95%;
+    margin: 5px auto;
+  }
+
+  .contact-page .contact-flex {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .contact-page .contact-flex .contact-text {
+    width: 90%;
+    margin: 2px auto;
+  }
+
+  .contact-page .contact-flex .contact-text .contact-text-single p {
+    font-size: 1.4rem;
+  }
+
+  .contact-page .contact-flex .contact-text .contact-text-single label {
+    font-size: 1.8rem;
+  }
+
+  .contact-page .contact-flex .contact-form {
+    width: 90%;
+    margin: 2px auto;
+  }
+
+  .contact-page .contact-flex .contact-form form {
+    width: 90%;
+    padding: 20px 14px;
+  }
+
+  .contact-page .contact-flex .contact-form form button {
+    width: 60%;
+  }
+
+  footer .footer-menus {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  footer .footer-menus>* {
+    width: 95%;
+    margin: 12px auto;
+  }
+}
