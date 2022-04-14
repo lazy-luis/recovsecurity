@@ -22,7 +22,8 @@ const Header = ({ currentPage, updatePage, updateSideBar }) => {
       </div>
       <div className="site-intro">
         <div className="site-logo">
-          <p> Recover Security </p>
+          {/* <p> Recover Security </p> */}
+          <img src="./img/logo.png" style={{ width: "200px" }} />
         </div>
         <div className="site-button">
           <button onClick={updateSideBar}>

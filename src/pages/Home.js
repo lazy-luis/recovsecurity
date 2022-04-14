@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-page">
       <div className="home-header">
         <div className="home-header-text">
-          <h2> Recovery Security </h2>
+          <h2> Recover Security </h2>
           <h4> Top Recovery Solution In The World </h4>
           <h6> We Provide Unbeatable Recovery Solutions </h6>
         </div>
