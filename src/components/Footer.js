@@ -8,7 +8,6 @@ const Footer = ({ currentPage, updatePage }) => {
       <div className="footer-menus">
         <div className="footer-name">
           <h4> Recover Security </h4>
-          <h6> Company Tagline </h6>
         </div>
         <div className="footer-parent-links">
           <h4> Quick Links </h4>
