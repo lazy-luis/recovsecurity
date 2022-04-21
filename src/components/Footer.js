@@ -23,7 +23,7 @@ const Footer = ({ currentPage, updatePage }) => {
             <BsTelephone /> +1-424-409-5126
           </p>
           <p>
-            <BiEnvelopeOpen /> info@recovsecurity.com
+            <BiEnvelopeOpen /> info@recov-security.com
           </p>
         </div>
       </div>

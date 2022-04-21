@@ -19,7 +19,7 @@ const Contact = () => {
               <BiEnvelopeOpen />
               Drop Us A Mail
             </p>
-            <label> info@recovsecurity.com </label>
+            <label> info@recov-security.com </label>
           </div>
         </div>
         <div className="contact-form">
